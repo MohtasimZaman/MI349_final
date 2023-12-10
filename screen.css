@@ -8,7 +8,7 @@ body {
     line-height: 20px;
     padding: 0;
   }
-  
+
   #header {
     height: 20px;
   }
@@ -129,9 +129,6 @@ body {
     background-color: #e3e3e3;; 
 }
 
-#content {
-    min-height: calc(100vh - 40px);
-  }
 
 
 
