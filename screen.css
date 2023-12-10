@@ -127,6 +127,25 @@ body {
     background-color: #300202;; 
 }
 
+/* change to vertical layout */
+@media screen and (max-width: 650px) {
+    .aboutme {
+        width: 80vw;
+        max-height: 100%;
+        text-overflow: visible;
+        flex-direction: column;
+    } 
+}
+
+.page {
+    margin: auto;
+    padding-top: 5vh;
+    align-content: justify;
+    justify-content: center;
+}
+
+
+
 
 
 
