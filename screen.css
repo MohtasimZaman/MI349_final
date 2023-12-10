@@ -12,7 +12,7 @@ html{
 }
 
   
-  /* h1 {
+  h1 {
     font-size: 2em;
     margin: 10px 0;
   }
@@ -20,7 +20,7 @@ html{
   p{
     font-size: 1.2em;
     margin: 10px 0;
-  } */
+  }
 
 .portrait{
     border-radius: 50%;
@@ -112,7 +112,7 @@ html{
 #footer {
     color: rgb(255, 176, 4);
     text-align: center;
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
