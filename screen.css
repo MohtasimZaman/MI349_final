@@ -128,20 +128,15 @@ html{
         flex-direction: column;
     } 
 
-    .single-column{
-        width: 80vw;
-        max-height: 100%;
-        text-overflow: visible;
-        flex-direction: column;
-    }
-
-    .two-column{
-        width: 80vw;
-        max-height: 100%;
-        text-overflow: visible;
-        flex-direction: column;
+    .page {
+        margin: auto;
+        padding-top: 5vh;
+        align-content: justify;
+        justify-content: center;
     }
 }
+
+
 
 
 
