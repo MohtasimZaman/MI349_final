@@ -43,6 +43,7 @@ html{
     padding: 1rem;
     max-width: 600px;
     margin-bottom: 20px;
+    overflow-y: scroll;
 }
 
 .hobbies {
@@ -89,4 +90,58 @@ html{
     height: 5rem;
     font-weight: bold; 
 }
+
+#portfolio {
+    margin-right: auto;
+    color: rgb(226, 225, 225);
+    font-weight: bold; 
+
+}
+
+.funfact {
+    text-align: center;
+}
+
+.funfact hr {
+    border: none; 
+    border-top: 1px solid #420101; 
+    margin: 10px 0; 
+}
+
+
+#footer {
+    color: rgb(113, 4, 255);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6e918c; 
+}
+
+/* change to vertical layout */
+@media screen and (max-width: 650px) {
+    .aboutme {
+        width: 80vw;
+        max-height: 100%;
+        text-overflow: visible;
+        flex-direction: column;
+    } 
+
+    .single-column{
+        width: 80vw;
+        max-height: 100%;
+        text-overflow: visible;
+        flex-direction: column;
+    }
+
+    .two-column{
+        width: 80vw;
+        max-height: 100%;
+        text-overflow: visible;
+        flex-direction: column;
+    }
+}
+
+
 
