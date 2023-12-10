@@ -77,13 +77,22 @@ html{
 }
 
 .nav-icons a {
+    margin-left: 1rem;  
     text-decoration: none;
-    color: white;
-    padding: 5px 10px; 
+    color: rgb(255, 255, 255);
+    transition: opacity 0.3; 
+    font-weight: bold; 
 }
 
 
 .nav-icons a:hover {
     opacity: 0.3;
+}
+
+.logo {
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    font-weight: bold; 
 }
 
