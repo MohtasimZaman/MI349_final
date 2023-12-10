@@ -112,6 +112,7 @@ html{
 #footer {
     color: rgb(255, 176, 4);
     text-align: center;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -126,12 +127,6 @@ html{
         text-overflow: visible;
         flex-direction: column;
     } 
-}
-.page {
-    margin: auto;
-    padding-top: 5vh;
-    align-content: justify;
-    justify-content: center;
 }
 
 
