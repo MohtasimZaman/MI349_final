@@ -112,22 +112,14 @@ html{
 #footer {
     color: rgb(255, 176, 4);
     text-align: center;
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #000000; 
 }
 
-/* change to vertical layout */
-@media screen and (max-width: 650px) {
-    .aboutme {
-        width: 80vw;
-        max-height: 100%;
-        text-overflow: visible;
-        flex-direction: column;
-    } 
-}
+
 
 
 
