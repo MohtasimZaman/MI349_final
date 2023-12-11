@@ -128,7 +128,7 @@ body {
 }
 
 /* change to vertical layout */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     .aboutme {
         width: 80vw;
         max-height: 100%;
