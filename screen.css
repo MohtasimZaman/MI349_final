@@ -124,7 +124,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #300202;; 
+    background-color: rgb(51, 51, 51); 
 }
 
 /* change to vertical layout */
