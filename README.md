@@ -1,2 +1,2 @@
 # boilerplate
-Basic HTML and CSS setup for simple web design
+A personal portfolio page highlighting my top skills. 
