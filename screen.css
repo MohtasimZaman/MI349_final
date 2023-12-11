@@ -149,7 +149,19 @@ body {
 }
 
 .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.icon img {
+    max-width: 50px; 
+}
+
+.progress-bar {
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
 progress {
@@ -157,6 +169,7 @@ progress {
     height: 20px;
     margin-top: 5px;
 }
+
 
 progress::-webkit-progress-bar {
     background-color: #eee;
